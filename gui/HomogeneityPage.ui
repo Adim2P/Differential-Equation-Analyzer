@@ -65,9 +65,9 @@
   <widget class="QLabel" name="resultText">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>10</x>
      <y>390</y>
-     <width>171</width>
+     <width>781</width>
      <height>41</height>
     </rect>
    </property>
@@ -78,6 +78,9 @@
    </property>
    <property name="text">
     <string>Results are shown here.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">

@@ -2,8 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 from sympy import symbols, diff, sympify
 
-
-
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -12,8 +10,6 @@ class MainWindow(tk.Tk):
         self.geometry("900x700")
         self.config(bg="#1A1A2E")  
         self.attributes('-transparentcolor', '#1A1A2E')
-        
-        self.iconbitmap("E:\\Files\\Personal Files\\Personal Projects\\Differential Equation Analyzer\\gui\\assets\\df.ico")
 
         self.header = tk.Label(
             self, text="🌸 Differential Equation Analyzer 🌸",

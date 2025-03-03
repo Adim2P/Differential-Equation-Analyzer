@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets
 from MainWindow import Ui_MainWindow  # Import the auto-generated MainWindow UI
 from ExactnessPage import Ui_Form as ExactnessPage  # Import the Exactness Page UI
 from HomogeneityPage import Ui_Form as HomogeneityPage  # Import the Homogeneity Page UI
-from checks import check_exactness, check_homogeneity  # Import the logic from checks.py
+from checks import check_exactness, check_homogeneity  # Import the formula logic from checks.py
 
 
 class MainWindow(QtWidgets.QMainWindow):
